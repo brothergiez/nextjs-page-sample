@@ -10,7 +10,7 @@ export default function PlatformPage() {
 				<h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Our Platform</h1>
 				<p className="text-gray-700 leading-relaxed mb-4">
 					Our platform is designed to connect people with innovative communication tools that are
-					simple, secure, and efficient. Whether you're looking to make a call, send a message, or
+					simple, secure, and efficient. Whether you&apos;re looking to make a call, send a message, or
 					collaborate with a team, our platform has you covered.
 				</p>
 

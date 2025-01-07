@@ -26,8 +26,8 @@ export default function EnglishPage() {
                 </p>
                 <ul className="list-disc list-inside text-gray-700 leading-relaxed">
                     <li>Go to the settings menu on your account.</li>
-                    <li>Select the "Language" option.</li>
-                    <li>Choose "English" from the list of available languages.</li>
+                    <li>Select the &quot;Language&quot; option.</li>
+                    <li>Choose &quot;English&quot; from the list of available languages.</li>
                     <li>Save your changes and enjoy the updated experience!</li>
                 </ul>
 

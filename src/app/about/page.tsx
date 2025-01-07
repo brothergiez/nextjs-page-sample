@@ -24,7 +24,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Our Mission</h2>
                 <p className="text-gray-700 leading-relaxed">
                     Our mission is to make communication easier, faster, and more accessible for everyone. We
-                    believe that staying connected should be simple, whether you're making a video call,
+                    believe that staying connected should be simple, whether you&apos;re making a video call,
                     sending a message, or sharing moments with your loved ones.
                 </p>
 
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
                 <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Get in Touch</h2>
                 <p className="text-gray-700 leading-relaxed">
-                    We'd love to hear from you! If you have any questions, feedback, or suggestions, please
+                    We&apos;d love to hear from you! If you have any questions, feedback, or suggestions, please
                     feel free to contact us at{' '}
                     <a href="mailto:support@example.com" className="text-blue-500">
                         support@example.com
