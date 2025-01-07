@@ -16,7 +16,7 @@ export default function AboutPage() {
 
                 <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Our Story</h2>
                 <p className="text-gray-700 leading-relaxed">
-                    Founded in [Year], our company began as a small startup with a vision to revolutionize how
+                    Founded in 2020, our company began as a small startup with a vision to revolutionize how
                     people connect. Over the years, we have grown into a global platform trusted by millions
                     of users worldwide.
                 </p>
