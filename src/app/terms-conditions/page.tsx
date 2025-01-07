@@ -45,7 +45,7 @@ export default function TermsAndConditions() {
 
                 <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">6. Governing Law</h2>
                 <p className="text-gray-700 leading-relaxed">
-                    These terms are governed by the laws of [Your Country/Region]. Any disputes will be
+                    These terms are governed by the laws of United States of America. Any disputes will be
                     resolved in accordance with these laws.
                 </p>
 
