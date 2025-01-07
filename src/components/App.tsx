@@ -38,7 +38,7 @@ export default function Header() {
                             alt="Google Play"
                             width={200}
                             height={90}
-                            className="cursor-pointer"
+                            className="cursor-pointer w-[90%] sm:w-[90%] md:w-[200px] h-auto"
                             onClick={handleComingSoon}
                         />
                         <Image
@@ -46,7 +46,7 @@ export default function Header() {
                             alt="App Store"
                             width={200}
                             height={90}
-                            className="cursor-pointer"
+                            className="cursor-pointer w-[80%] sm:w-[90%] md:w-[200px] h-auto"
                             onClick={handleComingSoon}
                         />
                     </div>
