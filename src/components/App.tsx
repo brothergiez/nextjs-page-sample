@@ -33,22 +33,28 @@ export default function Header() {
                         Connecting people with calls, chats, and more
                     </p>
                     <div className="flex gap-10 flex-col sm:flex-row items-center justify-center">
-                        <Image
-                            src="/assets/images/googleplay.svg"
-                            alt="Google Play"
-                            width={200}
-                            height={90}
-                            className="cursor-pointer w-[90%] sm:w-[90%] md:w-[200px] h-auto"
-                            onClick={handleComingSoon}
-                        />
-                        <Image
-                            src="/assets/images/appstore.svg"
-                            alt="App Store"
-                            width={200}
-                            height={90}
-                            className="cursor-pointer w-[80%] sm:w-[90%] md:w-[200px] h-auto"
-                            onClick={handleComingSoon}
-                        />
+                        <div className="w-[150px] sm:w-[150px] md:w-[200px]">
+                            <Image
+                                src="/assets/images/googleplay.svg"
+                                alt="Google Play"
+                                layout="responsive"
+                                width={200}
+                                height={90}
+                                className="cursor-pointer"
+                                onClick={handleComingSoon}
+                            />
+                        </div>
+                        <div className="w-[150px] sm:w-[150px] md:w-[200px]">
+                            <Image
+                                src="/assets/images/appstore.svg"
+                                alt="App Store"
+                                layout="responsive"
+                                width={200}
+                                height={90}
+                                className="cursor-pointer"
+                                onClick={handleComingSoon}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
