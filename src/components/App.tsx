@@ -52,7 +52,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <footer className="flex md:flex-row flex-col gap-10 items-center border-t-[1px] w-[95%] self-center py-3 justify-between">
+            <footer className="flex md:flex-row flex-col gap-10 items-center border-t-[1px] border-white w-[95%] self-center py-3 justify-between">
                 <div className="flex items-center gap-10 flex-col md:flex-row">
                     <FooterLink title="About" href="/about" />
                     <FooterLink title="Support" href="/support" />
