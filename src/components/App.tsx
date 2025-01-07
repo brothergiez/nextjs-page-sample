@@ -1,6 +1,11 @@
+"use client";
+
 import Image from 'next/image';
 
 export default function Header() {
+    const handleComingSoon = () => {
+        alert('Coming Soon');
+    };
     return (
         <div
             className="flex min-h-screen flex-col justify-between relative"
@@ -34,6 +39,7 @@ export default function Header() {
                             width={200}
                             height={90}
                             className="cursor-pointer"
+                            onClick={handleComingSoon}
                         />
                         <Image
                             src="/assets/images/appstore.svg"
@@ -41,6 +47,7 @@ export default function Header() {
                             width={200}
                             height={90}
                             className="cursor-pointer"
+                            onClick={handleComingSoon}
                         />
                     </div>
                 </div>
