@@ -14,7 +14,7 @@ export default function PlatformPage() {
 					collaborate with a team, our platform has you covered.
 				</p>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Key Features</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Key Features</h2>
 				<ul className="list-disc list-inside text-gray-700 leading-relaxed">
 					<li>High-quality voice and video calls</li>
 					<li>Real-time messaging with rich media sharing</li>
@@ -23,14 +23,14 @@ export default function PlatformPage() {
 					<li>Customizable settings to fit your needs</li>
 				</ul>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Why Choose Us?</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Why Choose Us?</h2>
 				<p className="text-gray-700 leading-relaxed">
 					Our platform is built with the latest technologies to ensure reliability, speed, and
 					security. We prioritize user experience and continuously innovate to provide the best
 					communication tools available.
 				</p>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Available Platforms</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Available Platforms</h2>
 				<p className="text-gray-700 leading-relaxed">
 					Our platform is available on multiple devices and operating systems, including:
 				</p>
@@ -40,7 +40,7 @@ export default function PlatformPage() {
 					<li>Desktop apps for Windows and macOS</li>
 				</ul>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Get Started Today</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Get Started Today</h2>
 				<p className="text-gray-700 leading-relaxed">
 					Join millions of users who trust our platform for their communication needs. Whether for
 					personal or professional use, our platform is here to help you stay connected.

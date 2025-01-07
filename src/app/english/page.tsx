@@ -13,14 +13,14 @@ export default function EnglishPage() {
                     to provide a seamless experience for our users worldwide.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Why Choose English?</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Why Choose English?</h2>
                 <p className="text-gray-700 leading-relaxed">
                     English is one of the most widely spoken languages globally, making it an essential
                     option for communication. By selecting English as your preferred language, you can enjoy
                     a localized experience tailored to your needs.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">How to Change Language Settings?</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">How to Change Language Settings?</h2>
                 <p className="text-gray-700 leading-relaxed">
                     To switch to English or another language, follow these steps:
                 </p>
@@ -31,7 +31,7 @@ export default function EnglishPage() {
                     <li>Save your changes and enjoy the updated experience!</li>
                 </ul>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Need Help?</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Need Help?</h2>
                 <p className="text-gray-700 leading-relaxed">
                     If you encounter any issues with language settings or have questions about using English
                     on our platform, feel free to contact our support team at{' '}

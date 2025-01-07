@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
                     data when you interact with our website and services.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">1. Information We Collect</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">1. Information We Collect</h2>
                 <p className="text-gray-700 leading-relaxed">
                     We collect personal information that you provide to us, such as your name, email address,
                     and other details when you sign up or contact us. Additionally, we collect non-personal
@@ -22,33 +22,33 @@ export default function PrivacyPolicy() {
                     purposes.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">2. How We Use Your Information</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">2. How We Use Your Information</h2>
                 <p className="text-gray-700 leading-relaxed">
                     Your information is used to provide and improve our services, respond to your inquiries,
                     send updates, and personalize your experience. We may also use your data for analytics to
                     understand user behavior and improve our website.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">3. Sharing of Information</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">3. Sharing of Information</h2>
                 <p className="text-gray-700 leading-relaxed">
                     We do not share your personal information with third parties, except as required by law
                     or to provide specific services (e.g., payment processing) that are essential to our
                     operations.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">4. Security</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">4. Security</h2>
                 <p className="text-gray-700 leading-relaxed">
                     We take reasonable measures to secure your personal information from unauthorized access,
                     loss, or misuse. However, no online service can guarantee 100% security.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">5. Your Rights</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">5. Your Rights</h2>
                 <p className="text-gray-700 leading-relaxed">
                     You have the right to access, update, or delete your personal information. If you have
                     any questions or requests, feel free to contact us.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">6. Changes to This Policy</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">6. Changes to This Policy</h2>
                 <p className="text-gray-700 leading-relaxed">
                     We may update this Privacy Policy from time to time. Please check this page periodically
                     for updates.

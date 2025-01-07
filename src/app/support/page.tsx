@@ -13,7 +13,7 @@ export default function SupportPage() {
 					questions, issues, or feedback you may have. Explore the resources below to get started.
 				</p>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">FAQs</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">FAQs</h2>
 				<p className="text-gray-700 leading-relaxed">
 					Check out our Frequently Asked Questions (FAQs) for quick answers to common queries.
 				</p>
@@ -24,7 +24,7 @@ export default function SupportPage() {
 					<li>How do I contact customer support?</li>
 				</ul>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Contact Us</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Contact Us</h2>
 				<p className="text-gray-700 leading-relaxed">
 					If you can’t find what you’re looking for, our team is here to help. Reach out to us at:
 				</p>
@@ -34,7 +34,7 @@ export default function SupportPage() {
 					<li>Live Chat: Available 24/7 on our website</li>
 				</ul>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Support Hours</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Support Hours</h2>
 				<p className="text-gray-700 leading-relaxed">
 					Our support team is available during the following hours:
 				</p>
@@ -44,7 +44,7 @@ export default function SupportPage() {
 					<li>Sunday: Closed</li>
 				</ul>
 
-				<h2 className="text-2xl font-semibold mt-6 mb-4">Feedback</h2>
+				<h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Feedback</h2>
 				<p className="text-gray-700 leading-relaxed">
 					We’d love to hear from you! If you have any feedback or suggestions, please let us know
 					how we can improve.

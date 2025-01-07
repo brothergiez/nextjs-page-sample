@@ -14,28 +14,28 @@ export default function AboutPage() {
                     to communicate with their loved ones, colleagues, and communities.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Our Story</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Our Story</h2>
                 <p className="text-gray-700 leading-relaxed">
                     Founded in [Year], our company began as a small startup with a vision to revolutionize how
                     people connect. Over the years, we have grown into a global platform trusted by millions
                     of users worldwide.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Our Mission</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Our Mission</h2>
                 <p className="text-gray-700 leading-relaxed">
                     Our mission is to make communication easier, faster, and more accessible for everyone. We
                     believe that staying connected should be simple, whether you're making a video call,
                     sending a message, or sharing moments with your loved ones.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Our Team</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Our Team</h2>
                 <p className="text-gray-700 leading-relaxed">
                     Behind our success is a team of dedicated professionals who work tirelessly to improve our
                     services. Our engineers, designers, and support staff are committed to ensuring the best
                     experience for our users.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-4">Get in Touch</h2>
+                <h2 className="text-2xl font-semibold mt-6 mb-4 text-black">Get in Touch</h2>
                 <p className="text-gray-700 leading-relaxed">
                     We'd love to hear from you! If you have any questions, feedback, or suggestions, please
                     feel free to contact us at{' '}
