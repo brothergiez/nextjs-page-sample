@@ -51,8 +51,8 @@ export default function TermsAndConditions() {
 
                 <p className="mt-8 text-gray-700 text-sm text-center">
                     If you have any questions about these Terms & Conditions, contact us at{' '}
-                    <a href="mailto:support@example.com" className="text-blue-500">
-                        support@example.com
+                    <a href="mailto:support@dint.com" className="text-blue-500">
+                        support@dint.com
                     </a>
                     .
                 </p>

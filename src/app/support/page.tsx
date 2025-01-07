@@ -29,7 +29,7 @@ export default function SupportPage() {
 					If you can’t find what you’re looking for, our team is here to help. Reach out to us at:
 				</p>
 				<ul className="list-disc list-inside text-gray-700 leading-relaxed">
-					<li>Email: <a href="mailto:support@example.com" className="text-blue-500">support@example.com</a></li>
+					<li>Email: <a href="mailto:support@dint.com" className="text-blue-500">support@dint.com</a></li>
 					<li>Phone: +1-234-567-890</li>
 					<li>Live Chat: Available 24/7 on our website</li>
 				</ul>

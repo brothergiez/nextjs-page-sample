@@ -35,8 +35,8 @@ export default function EnglishPage() {
                 <p className="text-gray-700 leading-relaxed">
                     If you encounter any issues with language settings or have questions about using English
                     on our platform, feel free to contact our support team at{' '}
-                    <a href="mailto:support@example.com" className="text-blue-500">
-                        support@example.com
+                    <a href="mailto:support@dint.com" className="text-blue-500">
+                        support@dint.com
                     </a>
                     .
                 </p>

@@ -39,8 +39,8 @@ export default function AboutPage() {
                 <p className="text-gray-700 leading-relaxed">
                     We&apos;d love to hear from you! If you have any questions, feedback, or suggestions, please
                     feel free to contact us at{' '}
-                    <a href="mailto:support@example.com" className="text-blue-500">
-                        support@example.com
+                    <a href="mailto:support@dint.com" className="text-blue-500">
+                        support@dint.com
                     </a>
                     .
                 </p>

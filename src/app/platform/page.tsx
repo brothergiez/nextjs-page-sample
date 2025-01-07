@@ -48,8 +48,8 @@ export default function PlatformPage() {
 
 				<p className="mt-8 text-gray-700 text-sm text-center">
 					If you have any questions or need support, feel free to reach out at{' '}
-					<a href="mailto:support@example.com" className="text-blue-500">
-						support@example.com
+					<a href="mailto:support@dint.com" className="text-blue-500">
+						support@dint.com
 					</a>
 					.
 				</p>
