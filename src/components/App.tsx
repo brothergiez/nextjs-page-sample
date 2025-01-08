@@ -1,20 +1,25 @@
 "use client";
 
-import Image from 'next/image';
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
     const handleComingSoon = () => {
-        alert('Coming Soon');
+        alert("Coming Soon");
     };
+
+    const [isAboutSubmenuOpen, setIsAboutSubmenuOpen] = useState(false);
+
     return (
         <div
             className="flex min-h-screen flex-col justify-between relative"
             style={{
-                background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/bg.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                minHeight: '100vh',
+                background:
+                    "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/bg.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                minHeight: "100vh",
             }}
         >
             <div className="flex flex-col gap-20 md:flex-row py-20 px-20">
@@ -60,7 +65,26 @@ export default function Header() {
             </div>
             <footer className="flex md:flex-row flex-col gap-10 items-center border-t-[1px] border-white w-[95%] self-center py-3 justify-between">
                 <div className="flex items-center gap-10 flex-col md:flex-row">
-                    <FooterLink title="About" href="/about" />
+                    <div className="relative">
+                        <FooterLink
+                            title="About"
+                            href="#"
+                            isDropdown
+                            isOpen={isAboutSubmenuOpen}
+                            onClick={() => setIsAboutSubmenuOpen(!isAboutSubmenuOpen)}
+                        />
+                        {isAboutSubmenuOpen && (
+                            <div className="absolute bottom-full left-0 text-white rounded shadow-md">
+                                <FooterSubLink title="Getting Started" href="/about/getting-started" />
+                                <FooterSubLink title="What's New" href="/about/whats-new" />
+                                <FooterSubLink
+                                    title="Source Code"
+                                    href="/about/source-code"
+                                    className="last:mb-4" // Tambahkan margin bawah khusus untuk item terakhir
+                                />
+                            </div>
+                        )}
+                    </div>
                     <FooterLink title="Support" href="/support" />
                     <FooterLink title="Platform" href="/platform" />
                     <FooterLink title="English" href="/english" />
@@ -71,22 +95,48 @@ export default function Header() {
                 </div>
             </footer>
         </div>
-
     );
 }
 
 type FooterLinkProps = {
     title: string;
     href: string;
+    isDropdown?: boolean;
+    isOpen?: boolean;
+    onClick?: () => void;
 };
 
-function FooterLink({ title, href }: FooterLinkProps) {
+function FooterLink({ title, href, isDropdown, isOpen, onClick }: FooterLinkProps) {
     return (
         <div className="flex gap-3 items-center">
-            <a href={href} className="text-[#FFFFFF] font-[400]">
+            <a href={href} className="text-[#FFFFFF] font-[400]" onClick={onClick}>
                 {title}
             </a>
-            <Image src="/assets/images/dropdownIcon.svg" alt="Dropdown Icon" width={10} height={10} />
+            {isDropdown ? (
+                <Image
+                    src={isOpen ? "/assets/images/chevron-up.svg" : "/assets/images/dropdownIcon.svg"}
+                    alt={isOpen ? "Chevron Up" : "Dropdown Icon"}
+                    width={10}
+                    height={10}
+                />
+            ) : null}
         </div>
+    );
+}
+
+type FooterSubLinkProps = {
+    title: string;
+    href: string;
+    className?: string;
+};
+
+function FooterSubLink({ title, href, className }: FooterSubLinkProps) {
+    return (
+        <a
+            href={href}
+            className={`block px-4 py-2 hover:bg-gray-700 rounded whitespace-nowrap ${className}`}
+        >
+            {title}
+        </a>
     );
 }
